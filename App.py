@@ -7,7 +7,7 @@ import streamlit as st
 import pandas as pd
 
 # Import the function that splits the data into a learning part and a testing part
-from requirements.txt.model_selection import train_test_split
+from sklearn.model_selection import train_test_split
 
 # Import the Linear Regression model
 from sklearn.linear_model import LinearRegression
